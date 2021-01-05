@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+p{
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+.clear{
+    content: ' ';
+    clear: both;
+    display: table;
+}
+
+/* starts header */
+header{
+    background-color: #363958;
+    padding: 1% 5%;
+    text-align: right;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+/* ends header */
+
+/* starts welcome section */
+.section{
+    padding: 1% 5%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.fifty_fifty{
+    width: 40%;
+    padding: 1% 5%;
+    float: left;
+}
+.left{
+    margin-top: 50px;
+}
+
+#text_highlight{
+    color: #399AF6;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#welcome p{
+    margin-bottom: 30px;
+}
+.fifty_fifty a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #F59560, #FAD262);
+    color: black;
+    border-radius: 5px;
+}
+.profile_img{
+    width: 100%;
+    height: auto;
+}
+
+/* ends welcome section */
+
+/* starts about section */
+#about p{
+    margin-bottom: 20px;
+}
+
+.download{
+    width: 12px;
+    margin-right: 10px;
+}
+/* ends about section */
+
+/* starts project section */
+.project_sect{
+    background-color: rgb(228, 248, 230);
+    height: 600px;
+    padding: 0 6%;
+}
+.project_sect h2{
+    text-align: center;
+    padding: 30px 0;
+}
+#latest_highlight{
+    color: #399AF6;
+}
+.one_third{
+    width: 27%;
+    height: 65%;
+    text-align: center;
+    padding: 1% 2%;
+    margin: 0 1.1%;
+    background-color: rgb(228, 248, 230);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px lightsteelblue;
+    float: left;
+}
+.one_third img{
+    width: 100%;
+}
+.one_third h3{
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+/* ends project section */
+
+/* starts footer section */
+footer{
+    background-color: #363958;
+    padding: 1% 5%;
+    text-align: center;
+}
+footer p{
+    color: lightslategray;
+}
+/* ends footer section */
